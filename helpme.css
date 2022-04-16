@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Shippori+Antique+B1&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: #f3f2f2;
+    font-family: 'Hammersmith One', sans-serif;
+}
+#country-login-register{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.country{
+    width: 170px;
+    height: 50px;
+    margin-left: 100px;
+    position: relative;
+}
+#country-login-register > .country > p{
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+#country-login-register > .country > img{
+    width: 55px;
+    height: 37px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -44px;
+}
+#country-login-register > .login-register{
+    width: 170px;
+    height: 50px;
+    float: right;
+    position: relative;
+
+    margin-top: -50px;
+    margin-right: 100px;
+}
+#country-login-register > .login-register > a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 50px;
+}
+#country-login-register > .login-register > a:hover{
+    color: aquamarine;
+}
+#header{
+    width: 80%;
+    height: 340px;
+    border-bottom: 1px solid grey;
+    margin: 0 auto;
+}
+#header > .logo{
+    text-align: center;
+}
+#header > .logo > a > img{
+    width: 600px;
+    height: 130px;
+}
+#header > .search{
+    text-align: center;
+}
+#header > .search > input {
+    width: 650px;
+    height: 50px;
+    margin-top: 35px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+    border: #ebe6e6;
+}
+#header > .search > i{
+    font-size: 25px;
+    margin-left: 600px;
+    margin-top: 48px;
+    position: absolute;
+    color:rgb(92, 91, 91);
+}
+#header > .menu{
+    text-align: center;
+
+}
+#header > .menu > ul > li{
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 90px;
+    font-size: 28px;
+    margin-top: 70px;
+}
+#header > .menu > ul > li > a{
+    text-decoration: none;
+    color: gray;
+}
+#header > .menu > ul > li > a:hover{
+    color:rgb(197, 43, 56);
+    font-size: 26px;
+    transition: .3s ease-in-out;
+    transition: all 0.4s;
+}
+#slidershow{
+    width: 80%;
+    height: 680px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+#slidershow > div > img{
+    width: 90%;
+    height: 650px;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.Calligraphy{
+    text-align: center;
+    font-size: 44px;
+    color: rgb(92, 91, 91);
+    margin-bottom: 40px;
+}
+#Calligraphy{
+    width: 80%;
+    height: 457px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eeeaea;
+    margin-top: 40px;
+}
+
+#Calligraphy > div {
+    width: 270px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-left: 32px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+#Calligraphy > div > img{
+    width: 250px;
+    height: 320px;
+    transition: all 0.4s;
+    margin-bottom: 4.4px;
+}
+#Calligraphy > div > img:hover{
+    transform: scale(1.05);
+}
+#Calligraphy > div > .one, .two, .three, .four {
+    position: sticky;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+}
+
+#the-one{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #eeeaea;
+}
+.information-us{
+    position: absolute;
+    text-align: center;
+    font-size: 44px;
+    position: relative;
+    margin-top: 70px;
+    color: rgb(92, 91, 91);
+}
+#the-one > .maxim{
+    width: 30%;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 50px;
+
+}
+#the-one > .maxim > p{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(92, 91, 91);
+}
+#the-one > .maxim > img{
+    width: 163px;
+    height: 163px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-size: cover;
+    border-radius: 80px;
+    margin-left: 32%;
+    margin-bottom: 15px;
+}
+#the-one > .inspired{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 650px;
+    border-left: 1px solid rgb(182, 179, 179);
+}
+#the-one > .inspired > p{
+    font-size: 25px;
+    margin-left: 115px;
+    margin-top: 25px;
+    color: rgb(92, 91, 91);
+}
+
+/* Help me
+ ----------------
+ */
+#page-contact .google-map{
+    margin-top: 50px;
+    margin-left: 900px;
+}
+.grid{
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+.page-contact-info{
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    height: 400px;
+}
+.page-contact-info h1{
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.form-vertical .contact-form{
+    background-color: #f3f2f2;
+    font-size: 18px;
+    width: 600px;
+    height: 550px;
+    margin-left: 100px;
+    border: 1px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+label{
+    margin-top: 50px;
+}
+input{
+    width: 500px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.grid-item-large .contact-form h2{
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: -650px;
+    margin-bottom: 30px;
+}
+textarea{
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.btnType1-right{
+    width: 50%;
+    margin-left: 140px;
+    background-color: orange;
+}
+
+
+
