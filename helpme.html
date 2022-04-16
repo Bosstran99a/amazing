@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <script src="https://ajax.googleapis.com/aJax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/helpme.css">
+
+
+</head>
+<body>
+<section id="country-login-register">
+    <div class="country">
+        <p>Country: </p>
+        <img src="image/tiente.png" alt="images-USA">
+    </div>
+    <div class="login-register">
+        <a href="log%20in.html" class="login-top">Login</a>
+        <a href="register.html" class="register-top">Register</a>
+        </nav>
+    </div>
+</section>
+<section id="header">
+    <div class="logo">
+        <a href="https://codelearn.io/home"><img src="image/logo.png" alt="logo"></a>
+    </div>
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Enter Information Search...">
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Introduce</a></li>
+            <li><a href="#">Calligraphy</a></li>
+            <li><a href="#">Favorite</a></li>
+            <li><a href="helpme.html">Contact</a></li>
+        </ul>
+    </div>
+</section>
+<main id="PageContainer" class="main-content is-moved-by-drawer" role="main">
+    <section id="page-contact">
+        <div class="wrapper">
+            <div class="inner">
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.096841491352!2d105.78049781424534!3d21.028810793154072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4cd0c66f05%3A0xea31563511af2e54!2zOCBUw7RuIFRo4bqldCBUaHV54bq_dCwgTeG7uSDEkMOsbmgsIEPhuqd1IEdp4bqleSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1647651092967!5m2!1svi!2s" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="grid">
+                    <div class="grid-item-large">
+                        <div class="contact-form">
+                            <h2>Gửi phản hồi của bạn</h2>
+                            <div class="form-vertical">
+                                <form accept-charset="UTF-8" class="contact-form" method="post">
+
+
+                                    <label for="ContactForName" class="hidden-label"></label>
+                                    <input type="text" id="contactForName" class="input-full" name="contact[name]"
+                                           placeholder="Full name" autocapitalize="words" value><br>
+                                    <label for="ContactForEmail" class="hidden-label"></label>
+                                    <input type="email" id="contactForEmail" class="input-full" name="contact[email]"
+                                           placeholder="Email" autocorrect="off" autocapitalize="off" value><br>
+                                    <label for="ContactFormPhone" class="hidden-label"></label>
+                                    <input type="tel" id="ContactFormPhone" class="input-full" name="contact[phone]"
+                                           placeholder="Phone" pattern="[0-9\-]*" value><br>
+                                    <br><label for="ContactFormMessage" class="hidden-label"></label><br>
+                                    <br><textarea rows="10" id="ContactFormMessage" class="input-full" name="contact[body]" placeholder="Content"></textarea>
+                                    <input type="submit" class="btnType1-right" onclick="submit()">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item-large">
+                        <div class="page-contact-info">
+                            <h1>Liên hệ với chúng tôi</h1>
+                            <div class="contact-desc">
+                                If you need to contact, exchange or comment, please refer to the following information:
+                            </div><br>
+                            <div class="contact-address">
+                                <i class="fa fa-home" aria-hidden="true">
+                                    <img src="image/home-icon.png" width="16" height="16">
+                                </i>
+                                Address: No 8 Tôn Thất Thuyết-Mỹ Đình-Cầu Giấy-Hà Nội.
+                            </div><br>
+                            <div class="contact-email">
+                                <i class="fa fa-envelope" aria-hidden="true">
+                                    <img src="image/mail-icon.png" width="16" height="16">
+                                </i>
+                                Email:
+                                <a href="mailto:caligraphy@gmail.com">
+                                    Caligraphy@gmail.com
+                                </a>
+                            </div><br>
+                            <div class="contact-hotline">
+                                <i class="fa fa-phone" aria-hidden="true">
+                                    <img src="image/dien-thoai.jpg" width="16" height="16">
+                                </i>
+                                Hotline :
+                                <a href="tel:024234234">024 234 234 (Mr A)</a>
+                            </div><br>
+                            <div class="contact-opening-hrs">
+                                <i class="fa fa-clock" aria-hidden="true">
+                                    <img src="image/dong-ho.png" width="16" height="16">
+                                </i>
+                                Thời gian làm việc :
+                                <div>
+                                    - Từ 8h00 đến 18h00 các ngày từ thứ 2 đến thứ 7 <br>
+                                    - Thứ 7 từ 8h00 đến 12h00.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/contact.js"></script>
+</main>
+</body>
+</html>
